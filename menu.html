@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 
 <head>
     <meta charset="utf-8">
-    <title>Restoran - Bootstrap Restaurant Template</title>
+    <title>Restaurant-Lehammamet</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <meta content="" name="keywords">
     <meta content="" name="description">
@@ -14,7 +14,9 @@
     <!-- Google Web Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;600&family=Nunito:wght@600;700;800&family=Pacifico&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;600&family=Nunito:wght@600;700;800&family=Pacifico&display=swap"
+        rel="stylesheet">
 
     <!-- Icon Font Stylesheet -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
@@ -35,7 +37,8 @@
 <body>
     <div class="container-xxl bg-white p-0">
         <!-- Spinner Start -->
-        <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+        <div id="spinner"
+            class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
             <div class="spinner-border text-primary" style="width: 3rem; height: 3rem;" role="status">
                 <span class="sr-only">Loading...</span>
             </div>
@@ -47,51 +50,58 @@
         <div class="container-xxl position-relative p-0">
             <nav class="navbar navbar-expand-lg navbar-dark bg-dark px-4 px-lg-5 py-3 py-lg-0">
                 <a href="" class="navbar-brand p-0">
-                    <h1 class="text-primary m-0"><i class="fa fa-utensils me-3"></i>Restoran</h1>
-                    <!-- <img src="img/logo.png" alt="Logo"> -->
+                    <img src="img/logo (1).png" alt="Logo">
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
                     <span class="fa fa-bars"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarCollapse">
                     <div class="navbar-nav ms-auto py-0 pe-4">
-                        <a href="index.html" class="nav-item nav-link">Home</a>
-                        <a href="about.html" class="nav-item nav-link">About</a>
-                        <a href="service.html" class="nav-item nav-link">Service</a>
+                        <a href="index.html" class="nav-item nav-link">Accueil</a>
+                        <a href="about.html" class="nav-item nav-link">À propos</a>
                         <a href="menu.html" class="nav-item nav-link active">Menu</a>
-                        <div class="nav-item dropdown">
-                            <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Pages</a>
-                            <div class="dropdown-menu m-0">
-                                <a href="booking.html" class="dropdown-item">Booking</a>
-                                <a href="team.html" class="dropdown-item">Our Team</a>
-                                <a href="testimonial.html" class="dropdown-item">Testimonial</a>
-                            </div>
-                        </div>
-                        <a href="contact.html" class="nav-item nav-link">Contact</a>
                     </div>
-                    <a href="" class="btn btn-primary py-2 px-4">Book A Table</a>
+                    <a href="contact.html" class="btn btn-primary py-2 px-4">Contact</a>
                 </div>
             </nav>
-
+        
             <div class="container-xxl py-5 bg-dark hero-header mb-5">
                 <div class="container text-center my-5 pt-5 pb-4">
-                    <h1 class="display-3 text-white mb-3 animated slideInDown">Food Menu</h1>
+                    <h1 class="display-3 text-white mb-3 animated slideInDown">Menu</h1>
                     <nav aria-label="breadcrumb">
                         <ol class="breadcrumb justify-content-center text-uppercase">
-                            <li class="breadcrumb-item"><a href="#">Home</a></li>
-                            <li class="breadcrumb-item"><a href="#">Pages</a></li>
+                            <li class="breadcrumb-item"><a href="index.html">Accueil</a></li>
+                            <li class="breadcrumb-item"><a href="about.html">À propos</a></li>
                             <li class="breadcrumb-item text-white active" aria-current="page">Menu</li>
+
                         </ol>
                     </nav>
                 </div>
             </div>
         </div>
+        
         <!-- Navbar & Hero End -->
 
-
+        <style>
+            .center-tabs {
+                display: flex;
+                justify-content: center;
+            }
+            .small-tabs .nav-item {
+                margin: 10px;
+            }
+            .small-tabs .nav-link {
+                padding: 10px 15px;
+                font-size: 13px;
+                
+            }
+            .move-up {
+        margin-top: -45px; /* Adjust this value as needed */
+    }
+        </style>
         <!-- Menu Start -->
-         <!-- Menu Start -->
-         <div class="container-xxl py-5">
+        <!-- Menu Start -->
+        <div class="container-xxl py-5">
             <div class="container">
                 <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
                     <h5 class="section-title ff-secondary text-center text-primary fw-normal">Menu</h5>
@@ -100,535 +110,1806 @@
                 <div class="tab-class text-center wow fadeInUp" data-wow-delay="0.1s">
                     <ul class="nav nav-pills d-inline-flex justify-content-center border-bottom mb-5">
                         <li class="nav-item">
-                            <a class="d-flex align-items-center text-start mx-3 ms-0 pb-3 active" data-bs-toggle="pill" href="#tab-1">
+                            <a class="d-flex align-items-center text-start mx-3 ms-0 pb-3 active" data-bs-toggle="pill"
+                                href="#tab-1">
                                 <i class="fas fa-cheese fa-2x text-primary"></i>
                                 <div class="ps-3">
                                     <small class="text-body">Populaire</small>
+                                    <h6 class="mt-n1 mb-0">Les apéritifs</h6>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="d-flex align-items-center text-start mx-3 pb-3" data-bs-toggle="pill"
+                                href="#tab-2">
+                                <i class="fa fa-utensils fa-2x text-primary"></i>
+                                <div class="ps-3">
+                                    <small class="text-body">Special</small>
                                     <h6 class="mt-n1 mb-0">Les entrées</h6>
                                 </div>
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a class="d-flex align-items-center text-start mx-3 pb-3" data-bs-toggle="pill" href="#tab-2">
-                                <i class="fa fa-utensils fa-2x text-primary"></i>
+                            <a class="d-flex align-items-center text-start mx-3 me-0 pb-3" data-bs-toggle="pill"
+                                href="#tab-3">
+                                <i class="fas fa-drumstick-bite fa-2x text-primary"></i>
                                 <div class="ps-3">
-                                    <small class="text-body">Special</small>
+                                    <small class="text-body">Lovely</small>
                                     <h6 class="mt-n1 mb-0">les plats</h6>
                                 </div>
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a class="d-flex align-items-center text-start mx-3 me-0 pb-3" data-bs-toggle="pill" href="#tab-3">
+                            <a class="d-flex align-items-center text-start mx-3 me-0 pb-3" data-bs-toggle="pill"
+                                href="#tab-4">
                                 <i class="fas fa-ice-cream fa-2x text-primary"></i>
                                 <div class="ps-3">
-                                    <small class="text-body">Lovely</small>
-                                    <h6 class="mt-n1 mb-0">Les desserts</h6>
+                                    <small class="text-body">Vin</small>
+                                    <h6 class="mt-n1 mb-0">les desserts</h6>
                                 </div>
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a class="d-flex align-items-center text-start mx-3 me-0 pb-3" data-bs-toggle="pill" href="#tab-4">
-                                <i class="fas fa-glass-martini fa-2x text-primary"></i>
-                                    <div class="ps-3">
-                                    <small class="text-body">Vin</small>
-                                    <h6 class="mt-n1 mb-0">Apéritifs Digestifs</h6>
+                            <a class="d-flex align-items-center text-start mx-3 me-0 pb-3" data-bs-toggle="pill"
+                                href="#tab-5">
+                                <i class="fas fa-wine-glass-alt fa-2x text-primary"></i>
+                                <div class="ps-3">
+                                    <small class="text-body">Vins</small>
+                                    <h6 class="mt-n1 mb-0">Les vins</h6>
                                 </div>
                             </a>
                         </li>
                     </ul>
-                    <div class="tab-content">
+                    <div class="tab-content move-up">
                         <div id="tab-1" class="tab-pane fade show p-0 active">
-                            <div class="row g-4">
-                                <div class="col-lg-6">
-                                    <div class="d-flex align-items-center">
-                                        <img class="flex-shrink-0 img-fluid rounded" src="img/scamp.jpeg" alt="" style="width: 80px;">
-                                        <div class="w-100 d-flex flex-column text-start ps-4">
-                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
-                                                <span>Cocktail de Scampis</span>
-                                                <span class="text-primary">16 €</span>
-                                            </h5>
-                                            <small class="fst-italic">scampi, crevettes grises, salade, sauce cocktail</small>
+                            <ul class="nav nav-pills mb-3 center-tabs small-tabs">
+                                <li class="nav-item">
+                                    <a class="nav-link active" data-bs-toggle="pill" href="#sub-tab-1-1">APÉRITIFS &
+                                        DIGESTIFS</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" data-bs-toggle="pill" href="#sub-tab-1-2">CHAMPAGNES</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" data-bs-toggle="pill" href="#sub-tab-1-3">BIÉRES</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" data-bs-toggle="pill" href="#sub-tab-1-4">EAUX,SODA,JUS</a>
+                                </li>
+                            </ul>
+                            <div class="tab-content">
+                            <div id="sub-tab-1-1" class="tab-pane fade show active">
+                                <div class="row g-4">
+                                    <div class="col-lg-6">
+                                        <div class="d-flex align-items-center">
+                                            <img class="flex-shrink-0 img-fluid rounded" src="img/Cocktail «Le Hammamet».jpeg"
+                                                alt="" style="width: 80px;">
+                                            <div class="w-100 d-flex flex-column text-start ps-4">
+                                                <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                    <span>Cocktail «Le Hammamet»</span>
+                                                    <span class="text-primary">6.50 €</span>
+                                                </h5>
+                                                <small class="fst-italic">(jus d'orange, gin, campari, cassis)</small>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <div class="d-flex align-items-center">
+                                            <img class="flex-shrink-0 img-fluid rounded" src="img/boukha.jpeg" alt=""
+                                                style="width: 80px;">
+                                            <div class="w-100 d-flex flex-column text-start ps-4">
+                                                <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                    <span>Boukha</span>
+                                                    <span class="text-primary">6.50 €</span>
+                                                </h5>
+                                                <small class="fst-italic">(Eau de Vie de figues) (+ orange ou coca =
+                                                    7,00 €)</small>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <div class="d-flex align-items-center">
+                                            <img class="flex-shrink-0 img-fluid rounded" src="img/chrab.jpeg" alt=""
+                                                style="width: 80px;">
+                                            <div class="w-100 d-flex flex-column text-start ps-4">
+                                                <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                    <span>Thibarine</span>
+                                                    <span class="text-primary">6.50 €</span>
+                                                </h5>
+                                                <small class="fst-italic"> (alcool de dattes) +( orange ou coca = 7,00
+                                                    €)</small>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <div class="d-flex align-items-center">
+                                            <img class="flex-shrink-0 img-fluid rounded" src="img/ricards.jpeg" alt=""
+                                                style="width: 80px;">
+                                            <div class="w-100 d-flex flex-column text-start ps-4">
+                                                <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                    <span>Ricard</span>
+                                                    <span class="text-primary">7 €</span>
+                                                </h5>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <div class="d-flex align-items-center">
+                                            <img class="flex-shrink-0 img-fluid rounded" src="img/pastis.jpeg" alt=""
+                                                style="width: 80px;">
+                                            <div class="w-100 d-flex flex-column text-start ps-4">
+                                                <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                    <span>Pastis</span>
+                                                    <span class="text-primary">7 €</span>
+                                                </h5>
+                                                <small class="fst-italic">Ipsum ipsum clita erat amet dolor justo
+                                                    diam</small>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <div class="d-flex align-items-center">
+                                            <img class="flex-shrink-0 img-fluid rounded" src="img/Whisky.jpeg" alt=""
+                                                style="width: 80px;">
+                                            <div class="w-100 d-flex flex-column text-start ps-4">
+                                                <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                    <span>Whisky </span>
+                                                    <span class="text-primary">6.50 €</span>
+                                                </h5>
+                                                <small class="fst-italic"> (JB ou Johnny Wälker) (+ coca ou soda = 7,00
+                                                    €)</small>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <div class="d-flex align-items-center">
+                                            <img class="flex-shrink-0 img-fluid rounded" src="img/Gin.jpeg" alt=""
+                                                style="width: 80px;">
+                                            <div class="w-100 d-flex flex-column text-start ps-4">
+                                                <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                    <span>Gin</span>
+                                                    <span class="text-primary">5.50 €</span>
+                                                </h5>
+                                                <small class="fst-italic">(+ orange ou tonic - 6,50 €)</small>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <div class="d-flex align-items-center">
+                                            <img class="flex-shrink-0 img-fluid rounded" src="img/Gancia Kit.jpeg" alt=""
+                                                style="width: 80px;">
+                                            <div class="w-100 d-flex flex-column text-start ps-4">
+                                                <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                    <span>Gancia
+                                                        Kit</span>
+                                                    <span class="text-primary">6 €</span>
+                                                </h5>
+                                                <small class="fst-italic">(+ orange =6,50 €)</small>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <div class="d-flex align-items-center">
+                                            <img class="flex-shrink-0 img-fluid rounded" src="img/Campari (1).jpeg" alt=""
+                                                style="width: 80px;">
+                                            <div class="w-100 d-flex flex-column text-start ps-4">
+                                                <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                    <span>Campari </span>
+                                                    <span class="text-primary">6.50 €</span>
+                                                </h5>
+                                                <small class="fst-italic">(+ orange =6,50 €)</small>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <div class="d-flex align-items-center">
+                                            <img class="flex-shrink-0 img-fluid rounded" src="img/Picon vin blanc (1).jpeg" alt=""
+                                                style="width: 80px;">
+                                            <div class="w-100 d-flex flex-column text-start ps-4">
+                                                <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                    <span>Picon vin blanc</span>
+                                                    <span class="text-primary">6.50 €</span>
+                                                </h5>
+                                                <small class="fst-italic"> (alcool de dattes) +( orange ou coca = 7,00
+                                                    €)</small>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <div class="d-flex align-items-center">
+                                            <img class="flex-shrink-0 img-fluid rounded" src="img/Martini blane ou rouge (1).jpeg" alt=""
+                                                style="width: 80px;">
+                                            <div class="w-100 d-flex flex-column text-start ps-4">
+                                                <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                    <span>Martini blane ou rouge</span>
+                                                    <span class="text-primary">6.50 €</span>
+                                                </h5>
+                                                <small class="fst-italic"> (alcool de dattes) +( orange ou coca = 7,00
+                                                    €)</small>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <div class="d-flex align-items-center">
+                                            <img class="flex-shrink-0 img-fluid rounded" src="img/Porto blanc ou rouge1).jpeg" alt=""
+                                                style="width: 80px;">
+                                            <div class="w-100 d-flex flex-column text-start ps-4">
+                                                <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                    <span>Porto blanc ou rouge </span>
+                                                    <span class="text-primary">6.50 €</span>
+                                                </h5>
+                                                <small class="fst-italic"> (alcool de dattes) +( orange ou coca = 7,00
+                                                    €)</small>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <div class="d-flex align-items-center">
+                                            <img class="flex-shrink-0 img-fluid rounded" src="img/Cognac (1).jpeg" alt=""
+                                                style="width: 80px;">
+                                            <div class="w-100 d-flex flex-column text-start ps-4">
+                                                <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                    <span>Cognac</span>
+                                                    <span class="text-primary">6.50 €</span>
+                                                </h5>
+                                                <small class="fst-italic"> (alcool de dattes) +( orange ou coca = 7,00
+                                                    €)</small>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <div class="d-flex align-items-center">
+                                            <img class="flex-shrink-0 img-fluid rounded" src="img/Grand Marnier Cointreau (1).jpeg" alt=""
+                                                style="width: 80px;">
+                                            <div class="w-100 d-flex flex-column text-start ps-4">
+                                                <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                    <span>Grand Marnier Cointreau</span>
+                                                    <span class="text-primary">6.50 €</span>
+                                                </h5>
+                                                <small class="fst-italic"> (alcool de dattes) +( orange ou coca = 7,00
+                                                    €)</small>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col-lg-6">
-                                    <div class="d-flex align-items-center">
-                                        <img class="flex-shrink-0 img-fluid rounded" src="img/maison.jpg" alt="" style="width: 80px;">
-                                        <div class="w-100 d-flex flex-column text-start ps-4">
-                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
-                                                <span>Scampis Maison</span>
-                                                <span class="text-primary">15 €</span>
-                                            </h5>
-                                            <small class="fst-italic">scampi, sauce du chef
-                                            </small>
+                            </div>
+                            <div id="sub-tab-1-2" class="tab-pane fade">
+                                <div class="row g-4">
+                                    <div class="col-lg-6">
+                                        <div class="d-flex align-items-center">
+                                            <img class="flex-shrink-0 img-fluid rounded" src="img/Louis Daumont (1).jpeg"
+                                                alt="" style="width: 80px;">
+                                            <div class="w-100 d-flex flex-column text-start ps-4">
+                                                <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                    <span>Louis Daumont</span>
+                                                    <span class="text-primary">6.50 €</span>
+                                                </h5>
+                                                <small class="fst-italic">(jus d'orange, gin, campari, cassis)</small>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <div class="d-flex align-items-center">
+                                            <img class="flex-shrink-0 img-fluid rounded" src="img/Crémant d'Alsace.jpeg" alt=""
+                                                style="width: 80px;">
+                                            <div class="w-100 d-flex flex-column text-start ps-4">
+                                                <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                    <span>Crémant d'Alsace</span>
+                                                    <span class="text-primary">6.50 €</span>
+                                                </h5>
+                                                <small class="fst-italic">(Eau de Vie de figues) (+ orange ou coca =
+                                                    7,00 €)</small>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col-lg-6">
-                                    <div class="d-flex align-items-center">
-                                        <img class="flex-shrink-0 img-fluid rounded" src="img/alails.jpeg" alt="" style="width: 80px;">
-                                        <div class="w-100 d-flex flex-column text-start ps-4">
-                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
-                                                <span>Scampis à l'ail</span>
-                                                <span class="text-primary">15 €</span>
-                                            </h5>
-                                            <small class="fst-italic">Ipsum ipsum clita erat amet dolor justo diam</small>
+
+                            </div>
+                            <div id="sub-tab-1-3" class="tab-pane fade">
+                                <div class="row g-4">
+                                    <div class="col-lg-6">
+                                        <div class="d-flex align-items-center">
+                                            <img class="flex-shrink-0 img-fluid rounded" src="img/Jupiler 25 cl (1).jpeg"
+                                                alt="" style="width: 80px;">
+                                            <div class="w-100 d-flex flex-column text-start ps-4">
+                                                <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                    <span>Jupiler 25 cl</span>
+                                                    <span class="text-primary">6.50 €</span>
+                                                </h5>
+                                                <small class="fst-italic">(jus d'orange, gin, campari, cassis)</small>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <div class="d-flex align-items-center">
+                                            <img class="flex-shrink-0 img-fluid rounded" src="img/Carsberg 25 cl (1).jpeg" alt=""
+                                                style="width: 80px;">
+                                            <div class="w-100 d-flex flex-column text-start ps-4">
+                                                <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                    <span>Carsberg 25 cl</span>
+                                                    <span class="text-primary">6.50 €</span>
+                                                </h5>
+                                                <small class="fst-italic">(Eau de Vie de figues) (+ orange ou coca =
+                                                    7,00 €)</small>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <div class="d-flex align-items-center">
+                                            <img class="flex-shrink-0 img-fluid rounded" src="img/Leffe brune ou blonde (1).jpeg" alt=""
+                                                style="width: 80px;">
+                                            <div class="w-100 d-flex flex-column text-start ps-4">
+                                                <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                    <span>Leffe brune ou blonde</span>
+                                                    <span class="text-primary">6.50 €</span>
+                                                </h5>
+                                                <small class="fst-italic"> (alcool de dattes) +( orange ou coca = 7,00
+                                                    €)</small>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <div class="d-flex align-items-center">
+                                            <img class="flex-shrink-0 img-fluid rounded" src="img/Chimay Bleue ou blonde (1).jpeg" alt=""
+                                                style="width: 80px;">
+                                            <div class="w-100 d-flex flex-column text-start ps-4">
+                                                <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                    <span>Chimay Bleue ou blonde</span>
+                                                    <span class="text-primary">7 €</span>
+                                                </h5>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col-lg-6">
-                                    <div class="d-flex align-items-center">
-                                        <img class="flex-shrink-0 img-fluid rounded" src="img/creme.jpg" alt="" style="width: 80px;">
-                                        <div class="w-100 d-flex flex-column text-start ps-4">
-                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
-                                                <span>Scampis à la crème</span>
-                                                <span class="text-primary">15 €</span>
-                                            </h5>
-                                            <small class="fst-italic">Ipsum ipsum clita erat amet dolor justo diam</small>
+                            </div>
+                            <div id="sub-tab-1-4" class="tab-pane fade">
+                                <div class="row g-4">
+                                    <div class="col-lg-6">
+                                        <div class="d-flex align-items-center">
+                                            <img class="flex-shrink-0 img-fluid rounded" src="img/Eau plate ou pétillante 25 cl. (1).jpeg"
+                                                alt="" style="width: 80px;">
+                                            <div class="w-100 d-flex flex-column text-start ps-4">
+                                                <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                    <span>Eau plate ou pétillante 25 cl.</span>
+                                                    <span class="text-primary">6.50 €</span>
+                                                </h5>
+                                                <small class="fst-italic">(jus d'orange, gin, campari, cassis)</small>
+                                            </div>
                                         </div>
                                     </div>
-                                </div>
-                                <div class="col-lg-6">
-                                    <div class="d-flex align-items-center">
-                                        <img class="flex-shrink-0 img-fluid rounded" src="img/tomate.jpeg" alt="" style="width: 80px;">
-                                        <div class="w-100 d-flex flex-column text-start ps-4">
-                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
-                                                <span>Tomate crevettes grises</span>
-                                                <span class="text-primary">15 €</span>
-                                            </h5>
-                                            <small class="fst-italic">Ipsum ipsum clita erat amet dolor justo diam</small>
+                                    <div class="col-lg-6">
+                                        <div class="d-flex align-items-center">
+                                            <img class="flex-shrink-0 img-fluid rounded" src="img/Eau .jpeg" alt=""
+                                                style="width: 80px;">
+                                            <div class="w-100 d-flex flex-column text-start ps-4">
+                                                <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                    <span>Eau plate ou pétillante 1/2  cl</span>
+                                                    <span class="text-primary">6.50 €</span>
+                                                </h5>
+                                                <small class="fst-italic">(Eau de Vie de figues) (+ orange ou coca =
+                                                    7,00 €)</small>
+                                            </div>
                                         </div>
                                     </div>
-                                </div>
-                                <div class="col-lg-6">
-                                    <div class="d-flex align-items-center">
-                                        <img class="flex-shrink-0 img-fluid rounded" src="img/avocat.webp" alt="" style="width: 80px;">
-                                        <div class="w-100 d-flex flex-column text-start ps-4">
-                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
-                                                <span>Avocat crevettes grises</span>
-                                                <span class="text-primary">15 €</span>
-                                            </h5>
-                                            <small class="fst-italic">Ipsum ipsum clita erat amet dolor justo diam</small>
+                                    <div class="col-lg-6">
+                                        <div class="d-flex align-items-center">
+                                            <img class="flex-shrink-0 img-fluid rounded" src="img/Eau plate ou pétillante 1.jpeg" alt=""
+                                                style="width: 80px;">
+                                            <div class="w-100 d-flex flex-column text-start ps-4">
+                                                <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                    <span>Eau plate ou pétillante 1L</span>
+                                                    <span class="text-primary">6.50 €</span>
+                                                </h5>
+                                                <small class="fst-italic"> (alcool de dattes) +( orange ou coca = 7,00
+                                                    €)</small>
+                                            </div>
                                         </div>
                                     </div>
-                                </div>
-                                <div class="col-lg-6">
-                                    <div class="d-flex align-items-center">
-                                        <img class="flex-shrink-0 img-fluid rounded" src="img/grenouilles.jpeg" alt="" style="width: 80px;">
-                                        <div class="w-100 d-flex flex-column text-start ps-4">
-                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
-                                                <span>Cuisses de grenouilles</span>
-                                                <span class="text-primary">13 €</span>
-                                            </h5>
-                                            <small class="fst-italic">Ipsum ipsum clita erat amet dolor justo diam</small>
+                                    <div class="col-lg-6">
+                                        <div class="d-flex align-items-center">
+                                            <img class="flex-shrink-0 img-fluid rounded" src="img/Fanta orange ou citron.jpeg" alt=""
+                                                style="width: 80px;">
+                                            <div class="w-100 d-flex flex-column text-start ps-4">
+                                                <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                    <span>Fanta orange ou citron</span>
+                                                    <span class="text-primary">7 €</span>
+                                                </h5>
+                                            </div>
                                         </div>
                                     </div>
-                                </div>
-                                <div class="col-lg-6">
-                                    <div class="d-flex align-items-center">
-                                        <img class="flex-shrink-0 img-fluid rounded" src="img/zatla.webp" alt="" style="width: 80px;">
-                                        <div class="w-100 d-flex flex-column text-start ps-4">
-                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
-                                                <span>Escargots de Bourgongne</span>
-                                                <span class="text-primary">13 €</span>
-                                            </h5>
-                                            <small class="fst-italic">Ipsum ipsum clita erat amet dolor justo diam</small>
+                                    <div class="col-lg-6">
+                                        <div class="d-flex align-items-center">
+                                            <img class="flex-shrink-0 img-fluid rounded" src="img/coca.jpeg" alt=""
+                                                style="width: 80px;">
+                                            <div class="w-100 d-flex flex-column text-start ps-4">
+                                                <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                    <span>Coca ou Coca Light ou Coca Zero
+                                                    </span>
+                                                    <span class="text-primary">7 €</span>
+                                                </h5>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <div class="d-flex align-items-center">
+                                            <img class="flex-shrink-0 img-fluid rounded" src="img/orange (1).jpeg" alt=""
+                                                style="width: 80px;">
+                                            <div class="w-100 d-flex flex-column text-start ps-4">
+                                                <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                    <span>Jus d'orange</span>
+                                                    <span class="text-primary">7 €</span>
+                                                </h5>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <div id="tab-2" class="tab-pane fade show p-0">
-                            <div class="row g-4">
-                                <div class="col-lg-6">
-                                    <div class="d-flex align-items-center">
-                                        <img class="flex-shrink-0 img-fluid rounded" src="img/couscous.jpeg" alt="" style="width: 80px;">
-                                        <div class="w-100 d-flex flex-column text-start ps-4">
-                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
-                                                <span>Couscous 7 légumes Royal</span>
-                                                <span class="text-primary">30 €</span>
-                                            </h5>
-                                            <small class="fst-italic">Ipsum ipsum clita erat amet dolor justo diam</small>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-lg-6">
-                                    <div class="d-flex align-items-center">
-                                        <img class="flex-shrink-0 img-fluid rounded" src="img/agnou.jpeg" alt="" style="width: 80px;">
-                                        <div class="w-100 d-flex flex-column text-start ps-4">
-                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
-                                                <span>Spaghetti jarret d'agneau, sauce maison </span>
-                                                <span class="text-primary">22 €</span>
-                                            </h5>
-                                            <small class="fst-italic">Ipsum ipsum clita erat amet dolor justo diam</small>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-lg-6">
-                                    <div class="d-flex align-items-center">
-                                        <img class="flex-shrink-0 img-fluid rounded" src="img/fruitmer.jpeg" alt="" style="width: 80px;">
-                                        <div class="w-100 d-flex flex-column text-start ps-4">
-                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
-                                                <span>Spaghetti aux fruits de mer</span>
-                                                <span class="text-primary">20 €</span>
-                                            </h5>
-                                            <small class="fst-italic">Ipsum ipsum clita erat amet dolor justo diam</small>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-lg-6">
-                                    <div class="d-flex align-items-center">
-                                        <img class="flex-shrink-0 img-fluid rounded" src="img/spageti enf.jpeg" alt="" style="width: 80px;">
-                                        <div class="w-100 d-flex flex-column text-start ps-4">
-                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
-                                                <span>Spaghetti enfant</span>
-                                                <span class="text-primary">15 €</span>
-                                            </h5>
-                                            <small class="fst-italic">Ipsum ipsum clita erat amet dolor justo diam</small>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-lg-6">
-                                    <div class="d-flex align-items-center">
-                                        <img class="flex-shrink-0 img-fluid rounded" src="img/brochette.jpeg" alt="" style="width: 80px;">
-                                        <div class="w-100 d-flex flex-column text-start ps-4">
-                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
-                                                <span>Brochettes Boeuf (salade, frites ou pdt)</span>
-                                                <span class="text-primary">27 €</span>
-                                            </h5>
-                                            <small class="fst-italic">Ipsum ipsum clita erat amet dolor justo diam</small>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-lg-6">
-                                    <div class="d-flex align-items-center">
-                                        <img class="flex-shrink-0 img-fluid rounded" src="img/steak che (1).jpeg" alt="" style="width: 80px;">
-                                        <div class="w-100 d-flex flex-column text-start ps-4">
-                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
-                                                <span>Steak façon du chef (frites ou pdt)</span>
-                                                <span class="text-primary">30 €</span>
-                                            </h5>
-                                            <small class="fst-italic">Ipsum ipsum clita erat amet dolor justo diam</small>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-lg-6">
-                                    <div class="d-flex align-items-center">
-                                        <img class="flex-shrink-0 img-fluid rounded" src="img/steak enf.jpeg" alt="" style="width: 80px;">
-                                        <div class="w-100 d-flex flex-column text-start ps-4">
-                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
-                                                <span>Steak enfant (salade, frites)</span>
-                                                <span class="text-primary">15 €</span>
-                                            </h5>
-                                            <small class="fst-italic">Ipsum ipsum clita erat amet dolor justo diam</small>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-lg-6">
-                                    <div class="d-flex align-items-center">
-                                        <img class="flex-shrink-0 img-fluid rounded" src="img/couscous agnou.jpeg" alt="" style="width: 80px;">
-                                        <div class="w-100 d-flex flex-column text-start ps-4">
-                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
-                                                <span>Couscous 7 légumes Gigot d'angean </span>
-                                                <span class="text-primary">25 €</span>
-                                            </h5> 
-                                            <small class="fst-italic">Ipsum ipsum clita erat amet dolor justo diam</small>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div id="tab-3" class="tab-pane fade show p-0">
-                            <div class="row g-4">
-                                <div class="col-lg-6">
-                                    <div class="d-flex align-items-center">
-                                        <img class="flex-shrink-0 img-fluid rounded" src="img/le hammamet.jpeg" alt="" style="width: 80px;">
-                                        <div class="w-100 d-flex flex-column text-start ps-4">
-                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
-                                                <span>"Le Hammamet"</span>
-                                                <span class="text-primary">15 €</span>
-                                            </h5>
-                                            <small class="fst-italic">Ipsum ipsum clita erat amet dolor justo diam</small>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-lg-6">
-                                    <div class="d-flex align-items-center">
-                                        <img class="flex-shrink-0 img-fluid rounded" src="img/assiet.jpeg" alt="" style="width: 80px;">
-                                        <div class="w-100 d-flex flex-column text-start ps-4">
-                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
-                                                <span>Assiette tunisienne  </span>
-                                                <span class="text-primary">15 €</span>
-                                            </h5>
-                                            <small class="fst-italic">pâtisseires, dattes</small>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-lg-6">
-                                    <div class="d-flex align-items-center">
-                                        <img class="flex-shrink-0 img-fluid rounded" src="img/gateau miel.jpeg" alt="" style="width: 80px;">
-                                        <div class="w-100 d-flex flex-column text-start ps-4">
-                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
-                                                <span>Gâteau au miel</span>
-                                                <span class="text-primary">12 €</span>
-                                            </h5>
-                                            <small class="fst-italic">Ipsum ipsum clita erat amet dolor justo diam</small>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-lg-6">
-                                    <div class="d-flex align-items-center">
-                                        <img class="flex-shrink-0 img-fluid rounded" src="img/coupe maison.jpeg" alt="" style="width: 80px;">
-                                        <div class="w-100 d-flex flex-column text-start ps-4">
-                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
-                                                <span>Coupe maison</span>
-                                                <span class="text-primary">12 €</span>
-                                            </h5>
-                                            <small class="fst-italic">crème vanille, fruits frais</small>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-lg-6">
-                                    <div class="d-flex align-items-center">
-                                        <img class="flex-shrink-0 img-fluid rounded" src="img/coupe fraise.jpeg" alt="" style="width: 80px;">
-                                        <div class="w-100 d-flex flex-column text-start ps-4">
-                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
-                                                <span>Coupe fraises</span>
-                                                <span class="text-primary">12 €</span>
-                                            </h5>
-                                            <small class="fst-italic">Ipsum ipsum clita erat amet dolor justo diam</small>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-lg-6">
-                                    <div class="d-flex align-items-center">
-                                        <img class="flex-shrink-0 img-fluid rounded" src="img/irish coffe.jpeg" alt="" style="width: 80px;">
-                                        <div class="w-100 d-flex flex-column text-start ps-4">
-                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
-                                                <span>Irish coffee</span>
-                                                <span class="text-primary">8 €</span>
-                                            </h5>
-                                            <small class="fst-italic">Ipsum ipsum clita erat amet dolor justo diam</small>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-lg-6">
-                                    <div class="d-flex align-items-center">
-                                        <img class="flex-shrink-0 img-fluid rounded" src="img/cappou.jpeg" alt="" style="width: 80px;">
-                                        <div class="w-100 d-flex flex-column text-start ps-4">
-                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
-                                                <span>Cappuccino</span>
-                                                <span class="text-primary">3 €</span>
-                                            </h5>
-                                            <small class="fst-italic">Ipsum ipsum clita erat amet dolor justo diam</small>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-lg-6">
-                                    <div class="d-flex align-items-center">
-                                        <img class="flex-shrink-0 img-fluid rounded" src="img/the coffe.jpeg" alt="" style="width: 80px;">
-                                        <div class="w-100 d-flex flex-column text-start ps-4">
-                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
-                                                <span>Thé à la menthe</span>
-                                                <span class="text-primary">2.5 €</span>
-                                            </h5>
-                                            <small class="fst-italic">Ipsum ipsum clita erat amet dolor justo diam</small>
+                    </div>    
+                        <div id="tab-2" class="tab-pane fade p-0">
+                                <div class="tab-content">
+                                    <div id="sub-tab-2-1" class="tab-pane fade show active">
+                                        <div class="row g-4">
+                                            <div class="col-lg-6">
+                                                <div class="d-flex align-items-center">
+                                                    <img class="flex-shrink-0 img-fluid rounded" src="img/scamp.jpeg"
+                                                        alt="" style="width: 80px;">
+                                                    <div class="w-100 d-flex flex-column text-start ps-4">
+                                                        <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                            <span>Cocktail de Scampis</span>
+                                                            <span class="text-primary">16 €</span>
+                                                        </h5>
+                                                        <small class="fst-italic">scampi, crevettes grises, salade,
+                                                            sauce cocktail</small>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-6">
+                                                <div class="d-flex align-items-center">
+                                                    <img class="flex-shrink-0 img-fluid rounded" src="img/maison.jpg"
+                                                        alt="" style="width: 80px;">
+                                                    <div class="w-100 d-flex flex-column text-start ps-4">
+                                                        <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                            <span>Scampis Maison</span>
+                                                            <span class="text-primary">15 €</span>
+                                                        </h5>
+                                                        <small class="fst-italic">scampi, sauce du chef
+                                                        </small>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-6">
+                                                <div class="d-flex align-items-center">
+                                                    <img class="flex-shrink-0 img-fluid rounded" src="img/alails.jpeg"
+                                                        alt="" style="width: 80px;">
+                                                    <div class="w-100 d-flex flex-column text-start ps-4">
+                                                        <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                            <span>Scampis à l'ail</span>
+                                                            <span class="text-primary">15 €</span>
+                                                        </h5>
+                                                        <small class="fst-italic">Ipsum ipsum clita erat amet dolor
+                                                            justo diam</small>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-6">
+                                                <div class="d-flex align-items-center">
+                                                    <img class="flex-shrink-0 img-fluid rounded" src="img/creme.jpg"
+                                                        alt="" style="width: 80px;">
+                                                    <div class="w-100 d-flex flex-column text-start ps-4">
+                                                        <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                            <span>Scampis à la crème</span>
+                                                            <span class="text-primary">15 €</span>
+                                                        </h5>
+                                                        <small class="fst-italic">Ipsum ipsum clita erat amet dolor
+                                                            justo diam</small>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-6">
+                                                <div class="d-flex align-items-center">
+                                                    <img class="flex-shrink-0 img-fluid rounded" src="img/tomate.jpeg"
+                                                        alt="" style="width: 80px;">
+                                                    <div class="w-100 d-flex flex-column text-start ps-4">
+                                                        <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                            <span>Tomate crevettes grises</span>
+                                                            <span class="text-primary">15 €</span>
+                                                        </h5>
+                                                        <small class="fst-italic">Ipsum ipsum clita erat amet dolor
+                                                            justo diam</small>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-6">
+                                                <div class="d-flex align-items-center">
+                                                    <img class="flex-shrink-0 img-fluid rounded" src="img/avocat.webp"
+                                                        alt="" style="width: 80px;">
+                                                    <div class="w-100 d-flex flex-column text-start ps-4">
+                                                        <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                            <span>Avocat crevettes grises</span>
+                                                            <span class="text-primary">15 €</span>
+                                                        </h5>
+                                                        <small class="fst-italic">Ipsum ipsum clita erat amet dolor
+                                                            justo diam</small>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-6">
+                                                <div class="d-flex align-items-center">
+                                                    <img class="flex-shrink-0 img-fluid rounded"
+                                                        src="img/grenouilles.jpeg" alt="" style="width: 80px;">
+                                                    <div class="w-100 d-flex flex-column text-start ps-4">
+                                                        <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                            <span>Cuisses de grenouilles</span>
+                                                            <span class="text-primary">13 €</span>
+                                                        </h5>
+                                                        <small class="fst-italic">Ipsum ipsum clita erat amet dolor
+                                                            justo diam</small>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-6">
+                                                <div class="d-flex align-items-center">
+                                                    <img class="flex-shrink-0 img-fluid rounded" src="img/zatla.webp"
+                                                        alt="" style="width: 80px;">
+                                                    <div class="w-100 d-flex flex-column text-start ps-4">
+                                                        <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                            <span>Escargots de Bourgongne</span>
+                                                            <span class="text-primary">13 €</span>
+                                                        </h5>
+                                                        <small class="fst-italic">Ipsum ipsum clita erat amet dolor
+                                                            justo diam</small>
+                                                    </div>
+                                                </div>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                        </div>
-                        <div id="tab-4" class="tab-pane fade show p-0">
-                            <div class="row g-4">
-                                <div class="col-lg-6">
-                                    <div class="d-flex align-items-center">
-                                        <img class="flex-shrink-0 img-fluid rounded" src="img/le hammametdrin.jpeg" alt="" style="width: 80px;">
-                                        <div class="w-100 d-flex flex-column text-start ps-4">
-                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
-                                                <span>Cocktail «Le Hammamet»</span>
-                                                <span class="text-primary">6.50 €</span>
-                                            </h5>
-                                            <small class="fst-italic">(jus d'orange, gin, campari, cassis)</small>
+                            <div id="tab-3" class="tab-pane fade p-0">
+                                <ul class="nav nav-pills mb-3 center-tabs small-tabs">
+                                    <li class="nav-item">
+                                        <a class="nav-link active" data-bs-toggle="pill" href="#sub-tab-3-1">Nos Spécialité</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" data-bs-toggle="pill" href="#sub-tab-3-2">Les Grillades</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" data-bs-toggle="pill" href="#sub-tab-3-3">Les Pates</a>
+                                    </li>
+                                </ul>
+                                <div class="tab-content">
+                                    <div id="sub-tab-3-1" class="tab-pane fade show active">
+                                        <div class="row g-4">
+                                            <div class="col-lg-6">
+                                                <div class="d-flex align-items-center">
+                                                    <img class="flex-shrink-0 img-fluid rounded" src="img/couscous-txt1.webp"
+                                                        alt="" style="width: 80px;">
+                                                    <div class="w-100 d-flex flex-column text-start ps-4">
+                                                        <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                            <span>Couscous 7 légumes Royal</span>
+                                                            <span class="text-primary">30 €</span>
+                                                        </h5>
+                                                        <small class="fst-italic">(brochette, gigot, merguez, pilon, jarret)</small>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-6">
+                                                <div class="d-flex align-items-center">
+                                                    <img class="flex-shrink-0 img-fluid rounded" src="img/couscous-txt1.webp"
+                                                        alt="" style="width: 80px;">
+                                                    <div class="w-100 d-flex flex-column text-start ps-4">
+                                                        <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                            <span>Couscous aux 7 légumes grillades.</span>
+                                                            <span class="text-primary">22 €</span>
+                                                        </h5>
+                                                        <small class="fst-italic">(brochette, gigot, côte, merguez)</small>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-6">
+                                                <div class="d-flex align-items-center">
+                                                    <img class="flex-shrink-0 img-fluid rounded" src="img/couscous-txt1.webp"
+                                                        alt="" style="width: 80px;">
+                                                    <div class="w-100 d-flex flex-column text-start ps-4">
+                                                        <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                            <span>Couscous aux 7 légumes côte à l'os (500 gr)</span>
+                                                            <span class="text-primary">20 €</span>
+                                                        </h5>
+                                                        <small class="fst-italic">Ipsum ipsum clita erat amet dolor
+                                                            justo diam</small>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-6">
+                                                <div class="d-flex align-items-center">
+                                                    <img class="flex-shrink-0 img-fluid rounded"
+                                                        src="img/couscous-txt1.webp" alt="" style="width: 80px;">
+                                                    <div class="w-100 d-flex flex-column text-start ps-4">
+                                                        <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                            <span>Couscous aux 7 légumes côte de veau</span>
+                                                            <span class="text-primary">15 €</span>
+                                                        </h5>
+                                                        <small class="fst-italic">Ipsum ipsum clita erat amet dolor
+                                                            justo diam</small>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-6">
+                                                <div class="d-flex align-items-center">
+                                                    <img class="flex-shrink-0 img-fluid rounded"
+                                                        src="img/couscous-txt1.webp" alt="" style="width: 80px;">
+                                                    <div class="w-100 d-flex flex-column text-start ps-4">
+                                                        <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                            <span>Couscous aux 7 légumes Steak</span>
+                                                            <span class="text-primary">27 €</span>
+                                                        </h5>
+                                                        <small class="fst-italic">Ipsum ipsum clita erat amet dolor
+                                                            justo diam</small>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-6">
+                                                <div class="d-flex align-items-center">
+                                                    <img class="flex-shrink-0 img-fluid rounded"
+                                                        src="img/couscous-txt1.webp" alt="" style="width: 80px;">
+                                                    <div class="w-100 d-flex flex-column text-start ps-4">
+                                                        <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                            <span>Couscous aux 7 légumes brochettes de bœuf</span>
+                                                            <span class="text-primary">30 €</span>
+                                                        </h5>
+                                                        <small class="fst-italic">Ipsum ipsum clita erat amet dolor
+                                                            justo diam</small>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-6">
+                                                <div class="d-flex align-items-center">
+                                                    <img class="flex-shrink-0 img-fluid rounded"
+                                                        src="img/couscous-txt1.webp" alt="" style="width: 80px;">
+                                                    <div class="w-100 d-flex flex-column text-start ps-4">
+                                                        <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                            <span>Couscous aux 7 légumes côtes d'agneau 4( côtes)</span>
+                                                            <span class="text-primary">15 €</span>
+                                                        </h5>
+                                                        <small class="fst-italic">Ipsum ipsum clita erat amet dolor
+                                                            justo diam</small>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-6">
+                                                <div class="d-flex align-items-center">
+                                                    <img class="flex-shrink-0 img-fluid rounded"
+                                                        src="img/couscous-txt1.webp" alt="" style="width: 80px;">
+                                                    <div class="w-100 d-flex flex-column text-start ps-4">
+                                                        <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                            <span>Couscous aux 7 légumes gigot d'agneau </span>
+                                                            <span class="text-primary">25 €</span>
+                                                        </h5>
+                                                        <small class="fst-italic">Ipsum ipsum clita erat amet dolor
+                                                            justo diam</small>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-6">
+                                                <div class="d-flex align-items-center">
+                                                    <img class="flex-shrink-0 img-fluid rounded"
+                                                        src="img/couscous-txt1.webp" alt="" style="width: 80px;">
+                                                    <div class="w-100 d-flex flex-column text-start ps-4">
+                                                        <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                            <span>Couscous aux 7 légumes brochettes d'agneau </span>
+                                                            <span class="text-primary">25 €</span>
+                                                        </h5>
+                                                        <small class="fst-italic">Ipsum ipsum clita erat amet dolor
+                                                            justo diam</small>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-6">
+                                                <div class="d-flex align-items-center">
+                                                    <img class="flex-shrink-0 img-fluid rounded"
+                                                        src="img/couscous-txt1.webp" alt="" style="width: 80px;">
+                                                    <div class="w-100 d-flex flex-column text-start ps-4">
+                                                        <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                            <span>Couscous aux 7 légumes jarret d'agneau </span>
+                                                            <span class="text-primary">25 €</span>
+                                                        </h5>
+                                                        <small class="fst-italic">Ipsum ipsum clita erat amet dolor
+                                                            justo diam</small>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-6">
+                                                <div class="d-flex align-items-center">
+                                                    <img class="flex-shrink-0 img-fluid rounded"
+                                                        src="img/couscous-txt1.webp" alt="" style="width: 80px;">
+                                                    <div class="w-100 d-flex flex-column text-start ps-4">
+                                                        <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                            <span>Couscous aux 7 légumes poulet  </span>
+                                                            <span class="text-primary">25 €</span>
+                                                        </h5>
+                                                        <small class="fst-italic">(cuisses ou brochettes)</small>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-6">
+                                                <div class="d-flex align-items-center">
+                                                    <img class="flex-shrink-0 img-fluid rounded"
+                                                        src="img/couscous-txt1.webp" alt="" style="width: 80px;">
+                                                    <div class="w-100 d-flex flex-column text-start ps-4">
+                                                        <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                            <span>Couscous aux 7 légumes merguez </span>
+                                                            <span class="text-primary">25 €</span>
+                                                        </h5>
+                                                 
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-6">
+                                                <div class="d-flex align-items-center">
+                                                    <img class="flex-shrink-0 img-fluid rounded"
+                                                        src="img/couscous-txt1.webp" alt="" style="width: 80px;">
+                                                    <div class="w-100 d-flex flex-column text-start ps-4">
+                                                        <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                            <span>Couscous sans viande</span>
+                                                            <span class="text-primary">25 €</span>
+                                                        </h5>
+          
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-6">
+                                                <div class="d-flex align-items-center">
+                                                    <img class="flex-shrink-0 img-fluid rounded"
+                                                        src="img/Tajine Maison.jpeg" alt="" style="width: 80px;">
+                                                    <div class="w-100 d-flex flex-column text-start ps-4">
+                                                        <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                            <span>Tajine Maison</span>
+                                                            <span class="text-primary">25 €</span>
+                                                        </h5>
+                                                        <small class="fst-italic">(cuisse de poulet, légumes, citron, olives, dattes, pdt)
+                                                            </small>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-6">
+                                                <div class="d-flex align-items-center">
+                                                    <img class="flex-shrink-0 img-fluid rounded"
+                                                        src="img/Tajine au lapin.jpeg" alt="" style="width: 80px;">
+                                                    <div class="w-100 d-flex flex-column text-start ps-4">
+                                                        <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                            <span>Tajine au lapin(sur commande)</span>
+                                                            <span class="text-primary">25 €</span>
+                                                        </h5>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-6">
+                                                <div class="d-flex align-items-center">
+                                                    <img class="flex-shrink-0 img-fluid rounded"
+                                                        src="img/Paëla.jpeg" alt="" style="width: 80px;">
+                                                    <div class="w-100 d-flex flex-column text-start ps-4">
+                                                        <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                            <span>Paëla (sur commande)</span>
+                                                            <span class="text-primary">25 €</span>
+                                                        </h5>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                <div id="sub-tab-3-2" class="tab-pane fade">
+                                    <div class="row g-4">
+                                        <div class="col-lg-6">
+                                            <div class="d-flex align-items-center">
+                                                <img class="flex-shrink-0 img-fluid rounded"
+                                                    src="img/menu-4.jpg" alt="" style="width: 80px;">
+                                                <div class="w-100 d-flex flex-column text-start ps-4">
+                                                    <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                        <span>Grillades «Le Hammamet»</span>
+                                                        <span class="text-primary">25 €</span>
+                                                    </h5>
+                                                    <small class="fst-italic">(brochettes, gigot, côtes d'agneau, merguez, salade, frites ou pdt)</small>
+                                                </div>
+                                            </div>
+                                        </div> <div class="col-lg-6">
+                                            <div class="d-flex align-items-center">
+                                                <img class="flex-shrink-0 img-fluid rounded"
+                                                    src="img/menu-4.jpg" alt="" style="width: 80px;">
+                                                <div class="w-100 d-flex flex-column text-start ps-4">
+                                                    <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                        <span>Côte à l'os (500 gr)</span>
+                                                        <span class="text-primary">25 €</span>
+                                                    </h5>
+                                                    <small class="fst-italic">(salade, pdt ou frites)</small>
+                                                </div>
+                                            </div>
+                                        </div> <div class="col-lg-6">
+                                            <div class="d-flex align-items-center">
+                                                <img class="flex-shrink-0 img-fluid rounded"
+                                                    src="img/menu-4.jpg" alt="" style="width: 80px;">
+                                                <div class="w-100 d-flex flex-column text-start ps-4">
+                                                    <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                        <span>Côte de veau</span>
+                                                        <span class="text-primary">25 €</span>
+                                                    </h5>
+                                                    <small class="fst-italic">(salade, pdt ou frites)</small>
+                                                </div>
+                                            </div>
+                                        </div> <div class="col-lg-6">
+                                            <div class="d-flex align-items-center">
+                                                <img class="flex-shrink-0 img-fluid rounded"
+                                                    src="img/brochette.jpeg" alt="" style="width: 80px;">
+                                                <div class="w-100 d-flex flex-column text-start ps-4">
+                                                    <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                        <span>Brochettes de bœuf </span>
+                                                        <span class="text-primary">25 €</span>
+                                                    </h5>
+                                                    <small class="fst-italic">(salade, pdt ou frites)</small>
+                                                </div>
+                                            </div>
+                                        </div> <div class="col-lg-6">
+                                            <div class="d-flex align-items-center">
+                                                <img class="flex-shrink-0 img-fluid rounded"
+                                                    src="img/gigot-agneau-roti-grecque.jpg" alt="" style="width: 80px;">
+                                                <div class="w-100 d-flex flex-column text-start ps-4">
+                                                    <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                        <span>Gigot d'agneau </span>
+                                                        <span class="text-primary">25 €</span>
+                                                    </h5>
+                                                    <small class="fst-italic">(salade, pdt ou frites)</small>
+                                                </div>
+                                            </div>
+                                        </div> <div class="col-lg-6">
+                                            <div class="d-flex align-items-center">
+                                                <img class="flex-shrink-0 img-fluid rounded"
+                                                    src="img/Côtes d'agneau.jpeg" alt="" style="width: 80px;">
+                                                <div class="w-100 d-flex flex-column text-start ps-4">
+                                                    <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                        <span>Côtes d'agneau </span>
+                                                        <span class="text-primary">25 €</span>
+                                                    </h5>
+                                                    <small class="fst-italic">(salade, pdt ou frites)</small>
+                                                </div>
+                                            </div>
+                                        </div> <div class="col-lg-6">
+                                            <div class="d-flex align-items-center">
+                                                <img class="flex-shrink-0 img-fluid rounded"
+                                                    src="img/brochette.jpeg" alt="" style="width: 80px;">
+                                                <div class="w-100 d-flex flex-column text-start ps-4">
+                                                    <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                        <span>Brochettes d'agneau </span>
+                                                        <span class="text-primary">25 €</span>
+                                                    </h5>
+                                                    <small class="fst-italic">(salade, pdt ou frites)</small>
+                                                </div>
+                                            </div>
+                                        </div> <div class="col-lg-6">
+                                            <div class="d-flex align-items-center">
+                                                <img class="flex-shrink-0 img-fluid rounded"
+                                                    src="img/brochette.jpeg" alt="" style="width: 80px;">
+                                                <div class="w-100 d-flex flex-column text-start ps-4">
+                                                    <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                        <span>Brochette géante</span>
+                                                        <span class="text-primary">25 €</span>
+                                                    </h5>
+                                                    <small class="fst-italic">(salade, pdt ou frites)</small>
+                                                </div>
+                                            </div>
+                                        </div> <div class="col-lg-6">
+                                            <div class="d-flex align-items-center">
+                                                <img class="flex-shrink-0 img-fluid rounded"
+                                                    src="img/Steak sauce champignons crème.jpeg" alt="" style="width: 80px;">
+                                                <div class="w-100 d-flex flex-column text-start ps-4">
+                                                    <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                        <span>Steak sauce champignons crème </span>
+                                                        <span class="text-primary">25 €</span>
+                                                    </h5>
+                                                    <small class="fst-italic">(pdt ou frites)</small>
+                                                </div>
+                                            </div>
+                                        </div> 
+                                        <div class="col-lg-6">
+                                            <div class="d-flex align-items-center">
+                                                <img class="flex-shrink-0 img-fluid rounded"
+                                                    src="img/menu-4.jpg" alt="" style="width: 80px;">
+                                                <div class="w-100 d-flex flex-column text-start ps-4">
+                                                    <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                        <span>Steak sauce au poivre </span>
+                                                        <span class="text-primary">25 €</span>
+                                                    </h5>
+                                                    <small class="fst-italic">(pdt ou frites)</small>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-6">
+                                            <div class="d-flex align-items-center">
+                                                <img class="flex-shrink-0 img-fluid rounded"
+                                                    src="img/Steak béarnaise.jpeg" alt="" style="width: 80px;">
+                                                <div class="w-100 d-flex flex-column text-start ps-4">
+                                                    <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                        <span>Steak béarnaise  </span>
+                                                        <span class="text-primary">25 €</span>
+                                                    </h5>
+                                                    <small class="fst-italic">(pdt ou frites)</small>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-6">
+                                            <div class="d-flex align-items-center">
+                                                <img class="flex-shrink-0 img-fluid rounded"
+                                                    src="img/steak che (1).jpeg" alt="" style="width: 80px;">
+                                                <div class="w-100 d-flex flex-column text-start ps-4">
+                                                    <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                        <span>Steak façon du chef</span>
+                                                        <span class="text-primary">25 €</span>
+                                                    </h5>
+                                                    <small class="fst-italic">(pdt ou frites)</small>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-6">
+                                            <div class="d-flex align-items-center">
+                                                <img class="flex-shrink-0 img-fluid rounded"
+                                                    src="img/Assiette froide.jpeg" alt="" style="width: 80px;">
+                                                <div class="w-100 d-flex flex-column text-start ps-4">
+                                                    <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                        <span>Assiette froide</span>
+                                                        <span class="text-primary">25 €</span>
+                                                    </h5>
+                                                    <small class="fst-italic">(salade, scampis, crevettes grises, fromage, olives, œufs)</small>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-6">
+                                            <div class="d-flex align-items-center">
+                                                <img class="flex-shrink-0 img-fluid rounded"
+                                                    src="img/steak enf.jpeg" alt="" style="width: 80px;">
+                                                <div class="w-100 d-flex flex-column text-start ps-4">
+                                                    <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                        <span>Steak enfant </span>
+                                                        <span class="text-primary">25 €</span>
+                                                    </h5>
+                                                    <small class="fst-italic">(salade, frites)</small>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-6">
+                                            <div class="d-flex align-items-center">
+                                                <img class="flex-shrink-0 img-fluid rounded"
+                                                    src="img/brochette.jpeg" alt="" style="width: 80px;">
+                                                <div class="w-100 d-flex flex-column text-start ps-4">
+                                                    <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                        <span>Brochette enfant </span>
+                                                        <span class="text-primary">25 €</span>
+                                                    </h5>
+                                                    <small class="fst-italic">(salade, frites)</small>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-6">
+                                            <div class="d-flex align-items-center">
+                                                <img class="flex-shrink-0 img-fluid rounded"
+                                                    src="img/Sauce béarnaise ou sauce champignons.jpeg" alt="" style="width: 80px;">
+                                                <div class="w-100 d-flex flex-column text-start ps-4">
+                                                    <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                        <span>Sauce béarnaise ou sauce champignons</span>
+                                                        <span class="text-primary">25 €</span>
+                                                    </h5>
+                                                </div>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col-lg-6">
-                                    <div class="d-flex align-items-center">
-                                        <img class="flex-shrink-0 img-fluid rounded" src="img/boukha.jpeg" alt="" style="width: 80px;">
-                                        <div class="w-100 d-flex flex-column text-start ps-4">
-                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
-                                                <span>Boukha</span>
-                                                <span class="text-primary">6.50 €</span>
-                                            </h5>
-                                            <small class="fst-italic">(Eau de Vie de figues) (+ orange ou coca = 7,00 €)</small>
+                                    <div id="sub-tab-3-3" class="tab-pane fade">
+                                        <div class="row g-4">  
+                                        <div class="col-lg-6">
+                                            <div class="d-flex align-items-center">
+                                                <img class="flex-shrink-0 img-fluid rounded"
+                                                    src="img/spa.jpeg" alt="" style="width: 80px;">
+                                                <div class="w-100 d-flex flex-column text-start ps-4">
+                                                    <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                        <span>Spaghetti jarret d'agneau, sauce maison</span>
+                                                        <span class="text-primary">25 €</span>
+                                                    </h5>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-6">
+                                            <div class="d-flex align-items-center">
+                                                <img class="flex-shrink-0 img-fluid rounded"
+                                                    src="img/spa.jpeg" alt="" style="width: 80px;">
+                                                <div class="w-100 d-flex flex-column text-start ps-4">
+                                                    <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                        <span>Spaghetti Maison</span>
+                                                        <span class="text-primary">25 €</span>
+                                                    </h5>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-6">
+                                            <div class="d-flex align-items-center">
+                                                <img class="flex-shrink-0 img-fluid rounded"
+                                                    src="img/fruitmer.jpeg" alt="" style="width: 80px;">
+                                                <div class="w-100 d-flex flex-column text-start ps-4">
+                                                    <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                        <span>Spaghetti aux fruits de mer</span>
+                                                        <span class="text-primary">25 €</span>
+                                                    </h5>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-6">
+                                            <div class="d-flex align-items-center">
+                                                <img class="flex-shrink-0 img-fluid rounded"
+                                                    src="img/spageti enf.jpeg" alt="" style="width: 80px;">
+                                                <div class="w-100 d-flex flex-column text-start ps-4">
+                                                    <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                        <span>Spaghetti enfant...</span>
+                                                        <span class="text-primary">25 €</span>
+                                                    </h5>
+                                                </div>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col-lg-6">
-                                    <div class="d-flex align-items-center">
-                                        <img class="flex-shrink-0 img-fluid rounded" src="img/chrab.jpeg" alt="" style="width: 80px;">
-                                        <div class="w-100 d-flex flex-column text-start ps-4">
-                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
-                                                <span>Thibarine</span>
-                                                <span class="text-primary">6.50 €</span>
-                                            </h5>
-                                            <small class="fst-italic"> (alcool de dattes) +( orange ou coca = 7,00 €)</small>
+
+                             </div>
+                            </div>
+                            <div id="tab-4" class="tab-pane fade p-0">
+                                <ul class="nav nav-pills mb-3 center-tabs small-tabs">
+                                    <li class="nav-item">
+                                        <a class="nav-link active" data-bs-toggle="pill" href="#sub-tab-4-1">Les Boissons froid</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" data-bs-toggle="pill" href="#sub-tab-4-2">Les Boissons chaudes</a>
+                                    </li>
+                                </ul>
+                                <div class="tab-content">
+                                    <div id="sub-tab-4-1" class="tab-pane fade show active">
+                                        <div class="row g-4">
+                                            <div class="col-lg-6">
+                                                <div class="d-flex align-items-center">
+                                                    <img class="flex-shrink-0 img-fluid rounded"
+                                                        src="img/le hammamet.jpeg" alt="" style="width: 80px;">
+                                                    <div class="w-100 d-flex flex-column text-start ps-4">
+                                                        <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                            <span>"Le Hammamet"</span>
+                                                            <span class="text-primary">15 €</span>
+                                                        </h5>
+                                                        <small class="fst-italic">(Créme vanille assortiment de petites patisseries orientales)</small>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-6">
+                                                <div class="d-flex align-items-center">
+                                                    <img class="flex-shrink-0 img-fluid rounded" src="img/assiet.jpeg"
+                                                        alt="" style="width: 80px;">
+                                                    <div class="w-100 d-flex flex-column text-start ps-4">
+                                                        <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                            <span>Assiette tunisienne </span>
+                                                            <span class="text-primary">15 €</span>
+                                                        </h5>
+                                                        <small class="fst-italic">(assortiment de pâtisseires, dattes)</small>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-6">
+                                                <div class="d-flex align-items-center">
+                                                    <img class="flex-shrink-0 img-fluid rounded"
+                                                        src="img/gateau miel.jpeg" alt="" style="width: 80px;">
+                                                    <div class="w-100 d-flex flex-column text-start ps-4">
+                                                        <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                            <span>Gâteau au miel</span>
+                                                            <span class="text-primary">12 €</span>
+                                                        </h5>
+                                    
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-6">
+                                                <div class="d-flex align-items-center">
+                                                    <img class="flex-shrink-0 img-fluid rounded"
+                                                        src="img/coupe maison.jpeg" alt="" style="width: 80px;">
+                                                    <div class="w-100 d-flex flex-column text-start ps-4">
+                                                        <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                            <span>Coupe maison</span>
+                                                            <span class="text-primary">12 €</span>
+                                                        </h5>
+                                                        <small class="fst-italic">crème vanille, fruits frais</small>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-6">
+                                                <div class="d-flex align-items-center">
+                                                    <img class="flex-shrink-0 img-fluid rounded"
+                                                        src="img/coupe fraise.jpeg" alt="" style="width: 80px;">
+                                                    <div class="w-100 d-flex flex-column text-start ps-4">
+                                                        <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                            <span>Coupe fraises</span>
+                                                            <span class="text-primary">12 €</span>
+                                                        </h5>
+                                                        <small class="fst-italic">Ipsum ipsum clita erat amet dolor
+                                                            justo diam</small>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-6">
+                                                <div class="d-flex align-items-center">
+                                                    <img class="flex-shrink-0 img-fluid rounded"
+                                                        src="img/Coupe liqueur (1).jpeg" alt="" style="width: 80px;">
+                                                    <div class="w-100 d-flex flex-column text-start ps-4">
+                                                        <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                            <span>Coupe liqueur</span>
+                                                            <span class="text-primary">12 €</span>
+                                                        </h5>
+                                                        <small class="fst-italic">(boule vanille et liqueur de dattes)
+                                                        </small>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-6">
+                                                <div class="d-flex align-items-center">
+                                                    <img class="flex-shrink-0 img-fluid rounded" src="img/Coupe café glacé.jpeg"
+                                                        alt="" style="width: 80px;">
+                                                    <div class="w-100 d-flex flex-column text-start ps-4">
+                                                        <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                            <span>Coupe café glacé</span>
+                                                            <span class="text-primary">11 €</span>
+                                                        </h5>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-6">
+                                                <div class="d-flex align-items-center">
+                                                    <img class="flex-shrink-0 img-fluid rounded"
+                                                        src="img/Brésilienne(1).jpeg" alt="" style="width: 80px;">
+                                                    <div class="w-100 d-flex flex-column text-start ps-4">
+                                                        <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                            <span>Brésilienne</span>
+                                                            <span class="text-primary">11 €</span>
+                                                        </h5>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-6">
+                                                <div class="d-flex align-items-center">
+                                                    <img class="flex-shrink-0 img-fluid rounded"
+                                                        src="img/Dame blanche.jpeg" alt="" style="width: 80px;">
+                                                    <div class="w-100 d-flex flex-column text-start ps-4">
+                                                        <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                            <span>Dame blanche</span>
+                                                            <span class="text-primary">11 €</span>
+                                                        </h5>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-6">
+                                                <div class="d-flex align-items-center">
+                                                    <img class="flex-shrink-0 img-fluid rounded"
+                                                        src="img/Dame noire.jpeg" alt="" style="width: 80px;">
+                                                    <div class="w-100 d-flex flex-column text-start ps-4">
+                                                        <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                            <span>Dame noire</span>
+                                                            <span class="text-primary">11 €</span>
+                                                        </h5>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-6">
+                                                <div class="d-flex align-items-center">
+                                                    <img class="flex-shrink-0 img-fluid rounded"
+                                                        src="img/Banana split.jpeg" alt="" style="width: 80px;">
+                                                    <div class="w-100 d-flex flex-column text-start ps-4">
+                                                        <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                            <span>Banana split</span>
+                                                            <span class="text-primary">13 €</span>
+                                                        </h5>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-6">
+                                                <div class="d-flex align-items-center">
+                                                    <img class="flex-shrink-0 img-fluid rounded"
+                                                        src="img/Sorbet cirtron1).jpeg" alt="" style="width: 80px;">
+                                                    <div class="w-100 d-flex flex-column text-start ps-4">
+                                                        <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                            <span>Sorbet citron</span>
+                                                            <span class="text-primary">11 €</span>
+                                                        </h5>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-6">
+                                                <div class="d-flex align-items-center">
+                                                    <img class="flex-shrink-0 img-fluid rounded"
+                                                        src="img/Sorbet fruits de la passion.jpeg" alt="" style="width: 80px;">
+                                                    <div class="w-100 d-flex flex-column text-start ps-4">
+                                                        <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                            <span>Sorbet fruits de la passion</span>
+                                                            <span class="text-primary">11 €</span>
+                                                        </h5>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-6">
+                                                <div class="d-flex align-items-center">
+                                                    <img class="flex-shrink-0 img-fluid rounded"
+                                                        src="img/Coupe juniore.jpeg.jpeg" alt="" style="width: 80px;">
+                                                    <div class="w-100 d-flex flex-column text-start ps-4">
+                                                        <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                            <span>Coupe junior</span>
+                                                            <span class="text-primary">8 €</span>
+                                                        </h5>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-6">
+                                                <div class="d-flex align-items-center">
+                                                    <img class="flex-shrink-0 img-fluid rounded"
+                                                        src="img/crep maison.jpeg" alt="" style="width: 80px;">
+                                                    <div class="w-100 d-flex flex-column text-start ps-4">
+                                                        <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                            <span>Crêpes Maison</span>
+                                                            <span class="text-primary">15 €</span>
+                                                        </h5>
+                                                        <small class="fst-italic">(crème vanille, crêpes flambées à la liqueur de dattes)
+                                                        </small>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-6">
+                                                <div class="d-flex align-items-center">
+                                                    <img class="flex-shrink-0 img-fluid rounded"
+                                                        src="img/crep sucree (1).jpeg" alt="" style="width: 80px;">
+                                                    <div class="w-100 d-flex flex-column text-start ps-4">
+                                                        <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                            <span>Crêpes au sucre</span>
+                                                            <span class="text-primary">10 €</span>
+                                                        </h5>
+                                                      
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-6">
+                                                <div class="d-flex align-items-center">
+                                                    <img class="flex-shrink-0 img-fluid rounded"
+                                                        src="img/creps.jpeg" alt="" style="width: 80px;">
+                                                    <div class="w-100 d-flex flex-column text-start ps-4">
+                                                        <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                            <span>Crêpes à la confiture</span>
+                                                            <span class="text-primary">10 €</span>
+                                                        </h5>
+                                                    
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-6">
+                                                <div class="d-flex align-items-center">
+                                                    <img class="flex-shrink-0 img-fluid rounded"
+                                                        src="img/fromages.jpeg" alt="" style="width: 80px;">
+                                                    <div class="w-100 d-flex flex-column text-start ps-4">
+                                                        <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                            <span>Fromages</span>
+                                                            <span class="text-primary">15 €</span>
+                                                        </h5>
+                                                      
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-6">
+                                                <div class="d-flex align-items-center">
+                                                    <img class="flex-shrink-0 img-fluid rounded"
+                                                        src="img/dates.jpeg" alt="" style="width: 80px;">
+                                                    <div class="w-100 d-flex flex-column text-start ps-4">
+                                                        <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                            <span>Dattes</span>
+                                                            <span class="text-primary">15 €</span>
+                                                        </h5>
+                                                      
+                                                    </div>
+                                                </div>
+                                            </div>
                                         </div>
                                     </div>
-                                </div>
-                                <div class="col-lg-6">
-                                    <div class="d-flex align-items-center">
-                                        <img class="flex-shrink-0 img-fluid rounded" src="img/ricards.jpeg" alt="" style="width: 80px;">
-                                        <div class="w-100 d-flex flex-column text-start ps-4">
-                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
-                                                <span>Ricard</span>
-                                                <span class="text-primary">7 €</span>
-                                            </h5>
+
+                                    <div id="sub-tab-4-2" class="tab-pane fade">
+                                        <!-- Content for Sub Tab 4-2 -->
+                                        <div class="row g-4">
+                                            <div class="col-lg-6">
+                                                <div class="d-flex align-items-center">
+                                                    <img class="flex-shrink-0 img-fluid rounded"
+                                                        src="img/irish coffe.jpeg" alt="" style="width: 80px;">
+                                                    <div class="w-100 d-flex flex-column text-start ps-4">
+                                                        <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                            <span>Irish coffe</span>
+                                                            <span class="text-primary">8 €</span>
+                                                        </h5>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-6">
+                                                <div class="d-flex align-items-center">
+                                                    <img class="flex-shrink-0 img-fluid rounded"
+                                                        src="img/Cappuccino.jpeg" alt="" style="width: 80px;">
+                                                    <div class="w-100 d-flex flex-column text-start ps-4">
+                                                        <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                            <span>Cappuccino</span>
+                                                            <span class="text-primary">3 €</span>
+                                                        </h5>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-6">
+                                                <div class="d-flex align-items-center">
+                                                    <img class="flex-shrink-0 img-fluid rounded"
+                                                        src="img/cafee maure.jpeg" alt="" style="width: 80px;">
+                                                    <div class="w-100 d-flex flex-column text-start ps-4">
+                                                        <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                            <span>Café maure</span>
+                                                            <span class="text-primary">3 €</span>
+                                                        </h5>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-6">
+                                                <div class="d-flex align-items-center">
+                                                    <img class="flex-shrink-0 img-fluid rounded"
+                                                        src="img/cafee.jpeg" alt="" style="width: 80px;">
+                                                    <div class="w-100 d-flex flex-column text-start ps-4">
+                                                        <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                            <span>Café</span>
+                                                            <span class="text-primary">2.5 €</span>
+                                                        </h5>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-6">
+                                                <div class="d-flex align-items-center">
+                                                    <img class="flex-shrink-0 img-fluid rounded"
+                                                        src="img/Décaféiné.jpeg" alt="" style="width: 80px;">
+                                                    <div class="w-100 d-flex flex-column text-start ps-4">
+                                                        <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                            <span>Décaféiné</span>
+                                                            <span class="text-primary">2.5 €</span>
+                                                        </h5>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-6">
+                                                <div class="d-flex align-items-center">
+                                                    <img class="flex-shrink-0 img-fluid rounded"
+                                                        src="img/the coffe.jpeg" alt="" style="width: 80px;">
+                                                    <div class="w-100 d-flex flex-column text-start ps-4">
+                                                        <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                            <span>Thẻ à la menthe</span>
+                                                            <span class="text-primary">2.5 €</span>
+                                                        </h5>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            
                                         </div>
                                     </div>
+
                                 </div>
-                                <div class="col-lg-6">
-                                    <div class="d-flex align-items-center">
-                                        <img class="flex-shrink-0 img-fluid rounded" src="img/pastis.jpeg" alt="" style="width: 80px;">
-                                        <div class="w-100 d-flex flex-column text-start ps-4">
-                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
-                                                <span>Pastis</span>
-                                                <span class="text-primary">7 €</span>
-                                            </h5>
-                                            <small class="fst-italic">Ipsum ipsum clita erat amet dolor justo diam</small>
+                            </div>
+                            <div id="tab-5" class="tab-pane fade p-0">
+                                <ul class="nav nav-pills mb-3 center-tabs small-tabs">
+                                    <li class="nav-item">
+                                        <a class="nav-link active" data-bs-toggle="pill" href="#sub-tab-5-1">ROUGES</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" data-bs-toggle="pill" href="#sub-tab-5-2">ROSÉS</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" data-bs-toggle="pill" href="#sub-tab-5-3">BLANCS</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" data-bs-toggle="pill" href="#sub-tab-5-4">Le Vin du Patron</a>
+                                    </li>
+                                </ul>
+                                <div class="tab-content">
+                                    <div id="sub-tab-5-1" class="tab-pane fade show active">
+                                        <div class="row g-4">
+                                            <div class="col-lg-6">
+                                                <div class="d-flex align-items-center">
+                                                    <img class="flex-shrink-0 img-fluid rounded"
+                                                        src="img/magon majus.jpeg" alt="" style="width: 80px;">
+                                                    <div class="w-100 d-flex flex-column text-start ps-4">
+                                                        <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                            <span>Magon Majus(Grand Cru)</span>
+                                                            <span class="text-primary">35 €</span>
+                                                        </h5>
+                                                        <small class="fst-italic">(Vins de tunisie)</small>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-6">
+                                                <div class="d-flex align-items-center">
+                                                    <img class="flex-shrink-0 img-fluid rounded" src="img/magon.jpeg"
+                                                        alt="" style="width: 80px;">
+                                                    <div class="w-100 d-flex flex-column text-start ps-4">
+                                                        <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                            <span>Magon</span>
+                                                            <span class="text-primary">30 €</span>
+                                                        </h5>
+                                                        <small class="fst-italic">(Vins de tunisie)</small>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-6">
+                                                <div class="d-flex align-items-center">
+                                                    <img class="flex-shrink-0 img-fluid rounded"
+                                                        src="img/Coteaux de Carthage.jpeg" alt="" style="width: 80px;">
+                                                    <div class="w-100 d-flex flex-column text-start ps-4">
+                                                        <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                            <span>Coteaux de Carthage</span>
+                                                            <span class="text-primary">30.00 €</span>
+                                                        </h5>
+                                                        <small class="fst-italic"> (Vins de tunisie)</small>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-6">
+                                                <div class="d-flex align-items-center">
+                                                    <img class="flex-shrink-0 img-fluid rounded" src="img/Sidi Brahim.jpg"
+                                                        alt="" style="width: 80px;">
+                                                    <div class="w-100 d-flex flex-column text-start ps-4">
+                                                        <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                            <span>Sidi Brahim</span>
+                                                            <span class="text-primary">30.00 €</span>
+                                                        </h5>
+                                                        <small class="fst-italic"> (Vins de tunisie)</small>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-6">
+                                                <div class="d-flex align-items-center">
+                                                    <img class="flex-shrink-0 img-fluid rounded"
+                                                        src="img/Guerrouane.jpeg" alt="" style="width: 80px;">
+                                                    <div class="w-100 d-flex flex-column text-start ps-4">
+                                                        <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                            <span>Guerrouane</span>
+                                                            <span class="text-primary">30 €</span>
+                                                        </h5>
+                                                        <small class="fst-italic">(Vins du Maroc)</small>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-6">
+                                                <div class="d-flex align-items-center">
+                                                    <img class="flex-shrink-0 img-fluid rounded"
+                                                        src="img/ksar.jpeg" alt="" style="width: 80px;">
+                                                    <div class="w-100 d-flex flex-column text-start ps-4">
+                                                        <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                            <span>ksar</span>
+                                                            <span class="text-primary">30 €</span>
+                                                        </h5>
+                                                        <small class="fst-italic"> (Vins du Maroc)</small>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-6">
+                                                <div class="d-flex align-items-center">
+                                                    <img class="flex-shrink-0 img-fluid rounded"
+                                                        src="img/Boulaouane.png" alt="" style="width: 80px;">
+                                                    <div class="w-100 d-flex flex-column text-start ps-4">
+                                                        <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                            <span>Boulaouane</span>
+                                                            <span class="text-primary">30 €</span>
+                                                        </h5>
+                                                        <small class="fst-italic">(Vins du Maroc)</small>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-6">
+                                                <div class="d-flex align-items-center">
+                                                    <img class="flex-shrink-0 img-fluid rounded"
+                                                        src="img/Cuvée du Président.jpeg" alt="" style="width: 80px;">
+                                                    <div class="w-100 d-flex flex-column text-start ps-4">
+                                                        <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                            <span>Cuvée du Président</span>
+                                                            <span class="text-primary">30 €</span>
+                                                        </h5>
+                                                        <small class="fst-italic">(Vins d'Algérie)</small>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-6">
+                                                <div class="d-flex align-items-center">
+                                                    <img class="flex-shrink-0 img-fluid rounded"
+                                                        src="img/coteaux de Mascara.jpeg" alt="" style="width: 80px;">
+                                                    <div class="w-100 d-flex flex-column text-start ps-4">
+                                                        <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                            <span>Coteaux de Mascara</span>
+                                                            <span class="text-primary">30 €</span>
+                                                        </h5>
+                                                        <small class="fst-italic">(Vins d'Algérie)</small>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-6">
+                                                <div class="d-flex align-items-center">
+                                                    <img class="flex-shrink-0 img-fluid rounded"
+                                                        src="img/Château Mansourah.jpg" alt="" style="width: 80px;">
+                                                    <div class="w-100 d-flex flex-column text-start ps-4">
+                                                        <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                            <span>Château Mansourah</span>
+                                                            <span class="text-primary">30 €</span>
+                                                        </h5>
+                                                        <small class="fst-italic">(Vins d'Algérie)</small>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-6">
+                                                <div class="d-flex align-items-center">
+                                                    <img class="flex-shrink-0 img-fluid rounded"
+                                                        src="img/Saint Emilion.jpeg" alt="" style="width: 80px;">
+                                                    <div class="w-100 d-flex flex-column text-start ps-4">
+                                                        <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                            <span>Saint Emilion</span>
+                                                            <span class="text-primary">35 €</span>
+                                                        </h5>
+                                                        <small class="fst-italic">(Vins français)</small>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-6">
+                                                <div class="d-flex align-items-center">
+                                                    <img class="flex-shrink-0 img-fluid rounded"
+                                                        src="img/Pinot Noir d'Alsace.jpeg" alt="" style="width: 80px;">
+                                                    <div class="w-100 d-flex flex-column text-start ps-4">
+                                                        <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                            <span>Pinot Noir d'Alsace</span>
+                                                            <span class="text-primary">30 €</span>
+                                                        </h5>
+                                                        <small class="fst-italic">(Vins français)</small>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-6">
+                                                <div class="d-flex align-items-center">
+                                                    <img class="flex-shrink-0 img-fluid rounded"
+                                                        src="img/Côte du Rhône.jpeg" alt="" style="width: 80px;">
+                                                    <div class="w-100 d-flex flex-column text-start ps-4">
+                                                        <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                            <span>Côte du Rhône</span>
+                                                            <span class="text-primary">28€</span>
+                                                        </h5>
+                                                        <small class="fst-italic">(Vins français)</small>
+                                                    </div>
+                                                </div>
+                                            </div>
                                         </div>
                                     </div>
-                                </div>
-                                <div class="col-lg-6">
-                                    <div class="d-flex align-items-center">
-                                        <img class="flex-shrink-0 img-fluid rounded" src="img/whisky.jpeg" alt="" style="width: 80px;">
-                                        <div class="w-100 d-flex flex-column text-start ps-4">
-                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
-                                                <span>Whisky </span>
-                                                <span class="text-primary">6.50 €</span>
-                                            </h5>
-                                            <small class="fst-italic"> (JB ou Johnny Wälker) (+ coca ou soda = 7,00 €)</small>
+
+                                    <div id="sub-tab-5-2" class="tab-pane fade">
+                                        <!-- Content for Sub Tab 5-2 -->
+                                        <div class="row g-4">
+                                            <div class="col-lg-6">
+                                                <div class="d-flex align-items-center">
+                                                    <img class="flex-shrink-0 img-fluid rounded"
+                                                        src="img/Gris de Tunisie.jpeg" alt="" style="width: 80px;">
+                                                    <div class="w-100 d-flex flex-column text-start ps-4">
+                                                        <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                            <span>Gris de Tunisie</span>
+                                                            <span class="text-primary">30 €</span>
+                                                        </h5>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-6">
+                                                <div class="d-flex align-items-center">
+                                                    <img class="flex-shrink-0 img-fluid rounded"
+                                                        src="img/Sidi Brahim.jpg" alt="" style="width: 80px;">
+                                                    <div class="w-100 d-flex flex-column text-start ps-4">
+                                                        <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                            <span>Sidi Brahim</span>
+                                                            <span class="text-primary">30 €</span>
+                                                        </h5>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-6">
+                                                <div class="d-flex align-items-center">
+                                                    <img class="flex-shrink-0 img-fluid rounded"
+                                                        src="img/Gris de Boulaouane.jpeg" alt="" style="width: 80px;">
+                                                    <div class="w-100 d-flex flex-column text-start ps-4">
+                                                        <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                            <span>Gris de Boulaouane</span>
+                                                            <span class="text-primary">30 €</span>
+                                                        </h5>
+                                                    </div>
+                                                </div>
+                                            </div>
                                         </div>
                                     </div>
-                                </div>
-                                <div class="col-lg-6">
-                                    <div class="d-flex align-items-center">
-                                        <img class="flex-shrink-0 img-fluid rounded" src="img/gin.jpeg" alt="" style="width: 80px;">
-                                        <div class="w-100 d-flex flex-column text-start ps-4">
-                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
-                                                <span>Gin</span>
-                                                <span class="text-primary">5.50 €</span>
-                                            </h5>
-                                            <small class="fst-italic">(+ orange ou tonic - 6,50 €)</small>
+                                    <div id="sub-tab-5-3" class="tab-pane fade">
+                                        <div class="row g-4">
+                                            <div class="col-lg-6">
+                                                <div class="d-flex align-items-center">
+                                                    <img class="flex-shrink-0 img-fluid rounded"
+                                                        src="img/Blanc de Guerrouane.jpeg" alt="" style="width: 80px;">
+                                                    <div class="w-100 d-flex flex-column text-start ps-4">
+                                                        <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                            <span>Blanc de Guerrouane</span>
+                                                            <span class="text-primary">30 €</span>
+                                                        </h5>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-6">
+                                                <div class="d-flex align-items-center">
+                                                    <img class="flex-shrink-0 img-fluid rounded"
+                                                        src="img/Domaine de Kelibia.jpeg" alt="" style="width: 80px;">
+                                                    <div class="w-100 d-flex flex-column text-start ps-4">
+                                                        <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                            <span>Domaine de Kelibia</span>
+                                                            <span class="text-primary">35 €</span>
+                                                        </h5>
+                                                    </div>
+                                                </div>
+                                            </div>
                                         </div>
                                     </div>
-                                </div>
-                                <div class="col-lg-6">
-                                    <div class="d-flex align-items-center">
-                                        <img class="flex-shrink-0 img-fluid rounded" src="img/gancia.jpeg" alt="" style="width: 80px;">
-                                        <div class="w-100 d-flex flex-column text-start ps-4">
-                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
-                                                <span>Gancia 
-                                                    Kit</span>
-                                                <span class="text-primary">6 €</span>
-                                            </h5>
-                                            <small class="fst-italic">(+ orange =6,50 €)</small>
+                                    <div id="sub-tab-5-4" class="tab-pane fade">
+                                        <!-- Content for Sub Tab 5-2 -->
+                                        <div class="row g-4">
+                                            <div class="col-lg-6">
+                                                <div class="d-flex align-items-center">
+                                                    <img class="flex-shrink-0 img-fluid rounded"
+                                                        src="img/magon majus.jpeg" alt="" style="width: 80px;">
+                                                    <div class="w-100 d-flex flex-column text-start ps-4">
+                                                        <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                            <span>Pichet 1 L</span>
+                                                            <span class="text-primary">20 €</span>
+                                                        </h5>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-6">
+                                                <div class="d-flex align-items-center">
+                                                    <img class="flex-shrink-0 img-fluid rounded"
+                                                        src="img/magon majus.jpeg" alt="" style="width: 80px;">
+                                                    <div class="w-100 d-flex flex-column text-start ps-4">
+                                                        <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                            <span>Pichet 1/2 L</span>
+                                                            <span class="text-primary">11 €</span>
+                                                        </h5>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-6">
+                                                <div class="d-flex align-items-center">
+                                                    <img class="flex-shrink-0 img-fluid rounded"
+                                                        src="img/magon majus.jpeg" alt="" style="width: 80px;">
+                                                    <div class="w-100 d-flex flex-column text-start ps-4">
+                                                        <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                            <span>Pichet 1/2 L</span>
+                                                            <span class="text-primary">6 €</span>
+                                                        </h5>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-6">
+                                                <div class="d-flex align-items-center">
+                                                    <img class="flex-shrink-0 img-fluid rounded"
+                                                        src="img/magon majus.jpeg" alt="" style="width: 80px;">
+                                                    <div class="w-100 d-flex flex-column text-start ps-4">
+                                                        <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                            <span>Le verre</span>
+                                                            <span class="text-primary">3.5 €</span>
+                                                        </h5>
+                                                    </div>
+                                                </div>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
+                            
                         </div>
-                        <br>
                     </div>
-                    
                 </div>
             </div>
         </div>
-
-        <!-- Footer Start -->
-        <div class="container-fluid bg-dark text-light footer pt-5 mt-5 wow fadeIn" data-wow-delay="0.1s">
-            <div class="container py-5">
-                <div class="row g-5">
-                    <div class="col-lg-3 col-md-6">
-                        <h4 class="section-title ff-secondary text-start text-primary fw-normal mb-4">Company</h4>
-                        <a class="btn btn-link" href="">About Us</a>
-                        <a class="btn btn-link" href="">Contact Us</a>
-                        <a class="btn btn-link" href="">Reservation</a>
-                        <a class="btn btn-link" href="">Privacy Policy</a>
-                        <a class="btn btn-link" href="">Terms & Condition</a>
-                    </div>
-                    <div class="col-lg-3 col-md-6">
-                        <h4 class="section-title ff-secondary text-start text-primary fw-normal mb-4">Contact</h4>
-                        <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>123 Street, New York, USA</p>
-                        <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>+012 345 67890</p>
-                        <p class="mb-2"><i class="fa fa-envelope me-3"></i>info@example.com</p>
-                        <div class="d-flex pt-2">
-                            <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-twitter"></i></a>
-                            <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-facebook-f"></i></a>
-                            <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-youtube"></i></a>
-                            <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-linkedin-in"></i></a>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-6">
-                        <h4 class="section-title ff-secondary text-start text-primary fw-normal mb-4">Opening</h4>
-                        <h5 class="text-light fw-normal">Monday - Saturday</h5>
-                        <p>09AM - 09PM</p>
-                        <h5 class="text-light fw-normal">Sunday</h5>
-                        <p>10AM - 08PM</p>
-                    </div>
-                    <div class="col-lg-3 col-md-6">
-                        <h4 class="section-title ff-secondary text-start text-primary fw-normal mb-4">Newsletter</h4>
-                        <p>Dolor amet sit justo amet elitr clita ipsum elitr est.</p>
-                        <div class="position-relative mx-auto" style="max-width: 400px;">
-                            <input class="form-control border-primary w-100 py-3 ps-4 pe-5" type="text" placeholder="Your email">
-                            <button type="button" class="btn btn-primary py-2 position-absolute top-0 end-0 mt-2 me-2">SignUp</button>
-                        </div>
-                    </div>
+        <div class="wow fadeInUp text-center" data-wow-delay="0.2s" style="background-color: #203447; padding: 20px; border-radius: 8px; margin: 0 auto; width: fit-content;">
+            <div class="row g-3">
+                <div class="col-12">
+                    <h5 class="section-title ff-secondary fw-normal text-start text-primary">Avertissement</h5>
                 </div>
-            </div>
-            <div class="container">
-                <div class="copyright">
-                    <div class="row">
-                        <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
-                            &copy; <a class="border-bottom" href="#">Your Site Name</a>, All Right Reserved. 
-							
-							<!--/*** This template is free as long as you keep the footer author’s credit link/attribution link/backlink. If you'd like to use the template without the footer author’s credit link/attribution link/backlink, you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". Thank you for your support. ***/-->
-							Designed By <a class="border-bottom" href="https://htmlcodex.com">HTML Codex</a><br><br>
-                            Distributed By <a class="border-bottom" href="https://themewagon.com" target="_blank">ThemeWagon</a>
-                        </div>
-                        <div class="col-md-6 text-center text-md-end">
-                            <div class="footer-menu">
-                                <a href="">Home</a>
-                                <a href="">Cookies</a>
-                                <a href="">Help</a>
-                                <a href="">FQAs</a>
-                            </div>
-                        </div>
-                    </div>
+                <p class="text-white">Certains plats peuvent contenir des produits ou substances provoquant des allergies ou intolérances.
+                    N'hésitez-pas à nous demander conseil, nous vous informerons volontiers.</p>
+                <div class="col-12 mt-3">
+                    <p class="text-center text-white">Merci d'avoir informé !!</p>
                 </div>
             </div>
         </div>
-        <!-- Footer End -->
-
-
-        <!-- Back to Top -->
-        <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"><i class="bi bi-arrow-up"></i></a>
+        
+     
     </div>
+    
+    
 
-    <!-- JavaScript Libraries -->
-    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="lib/wow/wow.min.js"></script>
-    <script src="lib/easing/easing.min.js"></script>
-    <script src="lib/waypoints/waypoints.min.js"></script>
-    <script src="lib/counterup/counterup.min.js"></script>
-    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
-    <script src="lib/tempusdominus/js/moment.min.js"></script>
-    <script src="lib/tempusdominus/js/moment-timezone.min.js"></script>
-    <script src="lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js"></script>
 
-    <!-- Template Javascript -->
-    <script src="js/main.js"></script>
+    <div class="container-fluid bg-dark text-light footer pt-5 mt-5 wow fadeIn" data-wow-delay="0.1s">
+        <div class="container py-5">
+            <div class="row g-5">
+                <div class="col-lg-3 col-md-6">
+                    <h4 class="section-title ff-secondary text-start text-primary fw-normal mb-4">Entreprise</h4>
+                    <a class="btn btn-link" href="">À propos de nous</a>
+                    <a class="btn btn-link" href="">Nous contacter</a>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h4 class="section-title ff-secondary text-start text-primary fw-normal mb-4">Contact</h4>
+                    <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>Rue Roi Albert, 4 5060 Tamines, Belgique</p>
+                    <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>0495 891 893</p>
+                    <p class="mb-2"><i class="fa fa-envelope me-3"></i>lehammamet@skynet.be</p>
+                    <div class="d-flex pt-2">
+                        <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-twitter"></i></a>
+                        <a class="btn btn-outline-light btn-social" href="https://www.facebook.com/LeHammamet/"><i class="fab fa-facebook-f"></i></a>
+                        <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-youtube"></i></a>
+                        <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h4 class="section-title ff-secondary text-start text-primary fw-normal mb-4">Horaires</h4>
+                    <h5 class="text-light fw-normal">Tous les jours</h5>
+                    <p>12H-15H et de 18H-23H</p>
+                    <h5 class="text-light fw-normal">Fermé le mardi</h5>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h4 class="section-title ff-secondary text-start text-primary fw-normal mb-4">Localisation</h4>
+                    <div class="mapouter">
+                        <div class="gmap_canvas">
+                            <iframe width="100%" height="200" id="gmap_canvas" src="https://maps.google.com/maps?q=Rue%20Roi%20Albert,4%205060%20Tamines,%20Belgium&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+                            <a href="https://2yu.co">2yu</a>
+                            <style>.mapouter{position:relative;text-align:right;height:200px;width:100%;}</style>
+                            <style>.gmap_canvas {overflow:hidden;background:none!important;height:200px;width:100%;}</style>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="copyright">
+                <div class="row">
+                    <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+                        &copy; <a class="border-bottom" href="#">Le-hammamet</a>, Tous droits réservés. 
+                        Conçu par <a class="border-bottom" href="mailto:montassar121@gmail.com">Ben Aziza Montassar</a><br><br>
+                    </div>
+                    <div class="col-md-6 text-center text-md-end">
+                        <div class="footer-menu">
+                            <a href="index.html">Accueil</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+<!-- Footer End -->
+
+                        <!-- Back to Top -->
+                        <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"><i
+                                class="bi bi-arrow-up"></i></a>
+                    </div>
+
+                    <!-- JavaScript Libraries -->
+                    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+                    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+                    <script src="lib/wow/wow.min.js"></script>
+                    <script src="lib/easing/easing.min.js"></script>
+                    <script src="lib/waypoints/waypoints.min.js"></script>
+                    <script src="lib/counterup/counterup.min.js"></script>
+                    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+                    <script src="lib/tempusdominus/js/moment.min.js"></script>
+                    <script src="lib/tempusdominus/js/moment-timezone.min.js"></script>
+                    <script src="lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js"></script>
+
+                    <!-- Template Javascript -->
+                    <script src="js/main.js"></script>
 </body>
 
 </html>
